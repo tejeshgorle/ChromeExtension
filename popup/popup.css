@@ -1,0 +1,93 @@
+/* Import modern font */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient(135deg, #6EE7B7, #3B82F6, #9333EA);
+    background-size: 200% 200%;
+    color: #ffffff;
+    text-align: center;
+    width: 290px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    animation: gradientShift 6s infinite alternate ease-in-out, fadeIn 1s ease-in-out;
+}
+
+/* Title styling */
+.title {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Website list styles */
+.website-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.website-list li {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.website-list li:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* Weekly report section */
+#weekly-report {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Hidden class for toggling */
+.hidden {
+    display: none;
+}
+
+/* Button styles */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
