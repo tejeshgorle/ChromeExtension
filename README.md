@@ -1,3 +1,12 @@
+**COMPANY** : CODTECH IT SOLUTIONS
+**NAME** : TEJESH GORLE
+**INTERN ID** : CT12KMU
+**DOMAIN** : FULL STACK DEVELOPMENT
+**BATCH DURATION** : JAN 10,2025 TO MARCH 10, 2025
+**MENTOR NAME** : NEELA SANTHOSH
+
+
+
 📊 Web Usage Analytics Chrome Extension
 This Chrome extension helps users track the time spent on various websites, providing daily and weekly analytics for better productivity and time management. It stores data locally and fetches weekly insights from a backend server.
 
